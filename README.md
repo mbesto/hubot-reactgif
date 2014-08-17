@@ -8,6 +8,7 @@ Install
 
 - Add `hubot-reactgif` to your Hubot's `package.json`
 - Add `hubot-reactgif` to your Hubot's `external-scripts.json`
+- Get an account @ imgur.com and then create an application. Then set HUBOT_IMGUR_CLIENTID=<your client id>.
 - Hubot reactgif clapping
 
 
