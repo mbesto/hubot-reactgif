@@ -33,7 +33,7 @@
 #   mbesto
 
 token = "Client-ID #{process.env.HUBOT_IMGUR_CLIENTID}"
-unless token
+unless process.env.HUBOT_IMGUR_CLIENTID
   throw "You must set HUBOT_IMGUR_CLIENTID in your environment vairables"
 
 api_url = "https://api.imgur.com/3/album/"
